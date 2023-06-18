@@ -1,8 +1,13 @@
+import Form from "./Form";
 import Header from "./Header";
 
-const Home=()=>{
-    return(
-        <div><Header/></div>
+const Home = () => {
+
+    return (
+        <>
+            <Header />
+            <Form/>
+        </>
     )
 }
 
